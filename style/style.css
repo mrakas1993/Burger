@@ -14,6 +14,9 @@ ul,ol{
 a{
     text-decoration: none;
 }
+button{
+    border: 0px;
+}
 .container{
     max-width: 1180px;
     margin:0 auto;
@@ -49,4 +52,162 @@ a{
     line-height: 133%;
     color: #443737;
     margin-left: 5px;
+}
+.header-bottom{
+    background: url('../img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 142px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom-text1{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 133%;
+    text-align: center;
+    color: #DEDEDE;
+    padding-bottom: 8px;
+}
+.bottom-title{
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 79px;
+    line-height: 137%;
+    color: #FFFFFF;
+    padding-bottom: 11px;
+}
+.bottom-text2{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-align: center;
+    color: #FAF9F9;
+    width: 320px;
+}
+header{
+    margin-bottom: 140px;
+}
+.stock{
+    margin-bottom: 100px;
+}
+.stock-banner{
+    background: url('../img/stock-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.stock-marker{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #F37335;
+    border-radius: 14px;
+    padding: 5px 18px;
+}
+.stock-title{
+    font-family: 'Nunito Sans';
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 127%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.stock-text{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #FAF9F9;
+    width: 308px;
+    padding-bottom: 15px;
+}
+.stock-btn{
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E2F40;
+    background: #FBB731;
+    border-radius: 5px;
+    padding: 20px 26px;
+    cursor: pointer;
+}
+.burger-title{
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 127%;
+    text-transform: uppercase;
+    color: #1B2A49;
+    margin-bottom: 34px;
+}
+.burger-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.burger-item_title{
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 127%;
+    text-align: center;
+    color: #1B2A49;
+    margin-top: 20px;
+}
+.burger-item_price{
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #979797;
+    margin-bottom: 20px;
+}
+.burger-item_btn{
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E2F40;
+    background: #FBB731;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 52px;
+    position: relative;
+    cursor: pointer;
+}
+.burger-item_btn::before{
+    content: '';
+    position: absolute;
+    background: url('../img/cart.svg');
+    background-repeat: repeat;
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+    left: 30px;
+    top: 8px;
+}
+.burger-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
 }
